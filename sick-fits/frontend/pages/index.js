@@ -1,5 +1,12 @@
-export default function(){
-    return <div>
+import { Component } from "react"
+import Page from "../components/Page";
+
+export default function IndexPage(){
+    return (
+        <>
         <p>Hello!</p>
-    </div>
-}
+        <code>var </code>
+        <p>You are a gorilla 🦍</p>
+        </>
+    );
+} 

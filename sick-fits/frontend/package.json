@@ -11,6 +11,9 @@
     "test-win": "SET NODE_ENV=test&& jest --watch",
     "heroku-postbuild": "next build"
   },
+  "eslintconfig": {
+    "extends": "wesbos"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
